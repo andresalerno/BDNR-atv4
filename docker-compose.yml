@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  cassandra:
+    image: cassandra:3.11
+    container_name: cassandra
+    ports:
+      - "9042:9042"  # Porta do Cassandra
+    environment:
+      - CASSANDRA_CLUSTER_NAME=atv4-branquinho
+      - CASSANDRA_DC=dc1
+      - CASSANDRA_RACK=rack1
+    networks:
+      - app_network  # Rede onde o Cassandra estará
+
+    # Rede onde a aplicação Python estará
+
+networks:
+  app_network:
+    driver: bridge
+
+volumes:
+  cassandra_data:
+    driver: local
