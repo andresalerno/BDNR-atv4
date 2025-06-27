@@ -55,12 +55,10 @@ Criando tabela 'produtos'...
 Tabela 'produtos' criada ou já existente!
 Criando tabela 'compras'...
 Tabela 'compras' criada ou já existente!
-Criando tabela 'favoritos'...
-Tabela 'favoritos' criada ou já existente!
-Iniciando a inserção do usuário...
-Dados do usuário: {'nome': 'João Silva', 'email': 'joao@email.com', 'telefone': '1234567890', 'tipo_usuario': 'pessoa_fisica', 'documento': '123.456.789-00', 'dados_pessoa_fisica': {'cpf': '123.456.789-00', 'data_nascimento': '1990-01-01', 'endereco': 'Rua X, 123'}, 'dados_empresa': None}     
-Usuário João Silva inserido com sucesso.
 Produto Celular inserido com sucesso.
-Compra 1d592892-5c47-4a84-8d95-18279e2acd99 inserida com sucesso.
-Favoritos de João Silva inseridos com sucesso.
+Produto Fone de Ouvido inserido com sucesso.
+Iniciando a inserção do usuário...
+O produto com ID e7baf533-9448-49d5-88c5-902f5686d52a não existe e será ignorado.
+O produto com ID e25d469c-f14c-4701-886e-047528f812c5 não existe e será ignorado.
+Usuário João Silva inserido com sucesso.
 ```
